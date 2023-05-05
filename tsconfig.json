@@ -108,7 +108,7 @@
   },
   "include": [
     "**/*.ts",
-    "*.ts",
+    "*.ts", "script/script.js",
   ],
   "exclude": [
     "node_modules"
