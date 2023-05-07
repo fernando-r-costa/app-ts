@@ -6,6 +6,7 @@ import { NewsController } from "../controller/newsController";
 const newsRouter = express();
 const news = container.resolve(NewsController);
 
+
 newsRouter.route("/api/v1/news").get((req: Request, res: Response) => {
     return news.get(req, res);
 });

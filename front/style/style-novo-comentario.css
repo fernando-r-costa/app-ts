@@ -1,0 +1,148 @@
+.novo-comentario {
+    display: grid;
+    grid-template-columns: 60px 330px 110px;
+    grid-template-rows: 110px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: hsl(228, 33%, 97%);
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+.avatar-novo {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.avatar-novo img {
+    width: 50%;
+    margin: 20px 15px;
+}
+
+.texto-novo {
+    grid-area: 1 / 2 / 2 / 3;
+    margin: 20px 0;
+}
+
+.texto-novo textarea {
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(228, 33%, 97%);
+    resize: none;
+    border-color: hsl(211, 10%, 45%);
+    padding: 10px;
+    outline: 0;
+    overflow: hidden;
+}
+
+.texto-novo textarea:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.texto-novo textarea:focus {
+    border-color: hsl(239, 57%, 85%);
+}
+
+.button {
+    grid-area: 1 / 3 / 2 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 30px 0 0 0;
+}
+
+.button button {
+    background-color: hsl(228, 45%, 44%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(223, 19%, 93%);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+.button button:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.texto textarea {
+    width: 390px;
+    height: 60px;
+    font-size: 10px;
+    border-radius: 10px;
+    background-color: hsl(228, 33%, 97%);
+    resize: none;
+    border-color: hsl(211, 10%, 45%);
+    padding: 3px 0 0 3px;
+    outline: 0;
+    overflow: hidden;
+}
+
+.texto button {
+    background-color: hsl(228, 45%, 44%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(223, 19%, 93%);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 15px 0 25px 10px;
+    padding: 10px 15px;
+}
+
+.texto button:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+@media screen and (max-width: 420px) {
+    .novo-comentario {
+        position: relative;
+        display: grid;
+        grid-template-columns: 60px 270px;
+        grid-template-rows: 140px 50px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 330px;
+        margin: 15px auto;
+    }
+
+    .texto-novo {
+        grid-area: 1 / 1 / 2 / 3;
+        margin: 15px;
+    }
+
+    .texto-novo textarea {
+        width: 280px;
+        height: 90px;
+    }
+
+    .avatar-novo {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .avatar-novo img {
+        margin: 0 15px;
+    }
+
+    .button {
+        grid-area: 2 / 2 / 3 / 3;
+        justify-content: right;
+        align-items: baseline;
+        margin: 0 15px 0 0;
+    }
+    .texto textarea {
+        margin-top: -10px;
+        height: 80px;
+        padding: 3px;
+    }
+    
+    .texto button {
+        margin: 15px 10px 25px 10px;
+    }
+}
