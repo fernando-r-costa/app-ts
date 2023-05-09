@@ -11,7 +11,7 @@
 ### O Desafio
 
 O objetivo desse projeto era estudar o superset TypeScript. Para isso utilizei o livro "Guia prático de TypeScript" escrito por Thiago da Silva Adriano da Casa do Código. Esse projeto está no livro.
-Além do TypeScript, conheci o Express, Docker, MongoDB e Postman, aprendi sobre rotas, models e injeção de dependências.
+Além do TypeScript, utilizei: Node, Express, Docker, MongoDB e Postman. Aprendi sobre rotas, models e injeção de dependências.
 
 ## Autor
 
