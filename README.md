@@ -4,9 +4,6 @@
 
 - [Visão Geral](#visão-geral)
   - [O Desafio](#o-desafio)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [Meu processo](#meu-processo)
 - [Autor](#autor)
 
 ## Visão Geral
