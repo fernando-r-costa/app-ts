@@ -108,7 +108,7 @@
   },
   "include": [
     "**/*.ts",
-    "*.ts", "script/script.js",
+    "*.ts", "script/script.js", "front/script/script-news.js", "front/script/script-dados.js",
   ],
   "exclude": [
     "node_modules"
